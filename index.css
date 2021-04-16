@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper h2 {
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    background-color: #173459;
+}
+
+.wrapper h4 {
+    color: #173459;
+    padding: 1rem;
+}
+
+input,
+option,
+select {
+    cursor: pointer;
+    outline: none;
+    margin: 0.5rem;
+    padding: 1rem 3rem;
+    border: 1px solid #173459;
+    border-radius: 0.3rem;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    color: #fff;
+    background: #173459;
+    border-bottom: 5px solid #903C56;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+input:hover,
+select:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+button {
+    margin: 3rem;
+    padding: 0.5rem 2rem;
+    outline: none;
+    color: #173459;
+    border: 1px solid #173459;
+}
+
+button:hover {
+    background-color: #173459;
+    color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+.fa {
+    color: #173459;
+}
